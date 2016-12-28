@@ -1,0 +1,37 @@
+@import url("basic-Dorian.css");
+TEI::before
+{
+content: "Word2pix: Who talks? Dorian: pink. Henry: green. Basil: blue. Sibyl: orange. James: brown. Other: yellow.";
+font-size: 35rem;
+}
+said
+{
+	color:white;
+	background-color:gold;
+}
+
+said[who="#DorianGray"]
+{
+	background-color:pink;
+}
+
+said[who="#HenryWottom"]
+{
+	background-color:lightgreen;
+}
+
+said[who="#BasilHallward"]
+{
+	background-color:lightblue;
+}
+
+said[who="#SibylVane"]
+{
+	background-color:orange;
+}
+
+said[who="#JamesVane"]
+{
+	background-color:brown;
+}
+

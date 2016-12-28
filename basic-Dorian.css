@@ -1,0 +1,47 @@
+TEI
+ {
+    font-size:1px;
+    width:60%;
+    margin:5rem auto 0;
+    clear:both;
+    
+ }
+
+author, publicationStmt, sourceDesc, encodingDesc,revisionDesc, idno, principal
+{
+    display:none;
+}
+
+div[type="chapter"]
+{
+	display:block;
+ 	margin:3em;
+ 	border:black 1px solid;
+	float:left;
+	width:300rem;
+	height:300rem;
+	padding:3em;
+	overflow:hidden;
+}
+title[type="main"]
+{
+
+     clear:both;
+     display:block;
+     font-size:40rem;
+}
+
+head
+{
+
+     clear:both;
+     display:block;
+     font-size:25rem;
+}
+
+ab:hover,p:hover
+{
+	font-size:20rem;
+	position:relative;
+	z-index:1;
+}
