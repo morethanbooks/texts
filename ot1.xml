@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-stylesheet type="text/css" href="said-Dorian.css" rel="stylesheet" title="said-Dorian"?>
-<?xml-stylesheet type="text/css" href="paragraphs-Dorian.css" rel="stylesheet" title="paragraphs-Dorian"?>
+<?xml-stylesheet type="text/css" href="styles/said-Dorian.css" rel="stylesheet" title="said-Dorian"?>
+<?xml-stylesheet type="text/css" href="styles/paragraphs-Dorian.css" rel="stylesheet" title="paragraphs-Dorian"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
 <!--based actually on https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
