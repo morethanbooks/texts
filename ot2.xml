@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+
+<?xml-stylesheet type="text/css" href="styles/sp-celestina.css" rel="stylesheet" title="sp-celestina"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -236,20 +239,20 @@
 				<div>
 					<castList>
 						<head>INTRODÚCENSE EN ESTA TRAGI-COMEDIA LAS PERSONAS SIGUIENTES</head>
-						<castItem xml:id="cali">CALISTO, <seg rend="italic">mancebo enamorado.</seg></castItem>
-						<castItem xml:id="meli">MELIBEA, <seg rend="italic">hija de PLEBERIO.</seg></castItem>
-						<castItem xml:id="pleb">PLEBERIO, <seg rend="italic">padre de MELIBEA.</seg></castItem>
-						<castItem xml:id="alis">ALISA, <seg rend="italic">madre de MELIBEA.</seg></castItem>
-						<castItem xml:id="cele">CELESTINA, <seg rend="italic">alcahueta.</seg></castItem>
-						<castItem xml:id="parm">PÁRMENO, <seg rend="italic">criado de CALISTO.</seg></castItem>
-						<castItem xml:id="semp">SEMPRONIO, <seg rend="italic">criado de CALISTO.</seg></castItem>
-						<castItem xml:id="tris">TRISTÁN, <seg rend="italic">criado de CALISTO.</seg></castItem>
-						<castItem xml:id="sosi">SOSIA, <seg rend="italic">criado de CALISTO.</seg></castItem>
-						<castItem xml:id="crit">CRITO, <seg rend="italic">putañero.</seg></castItem>
-						<castItem xml:id="lucr">LUCRECIA, <seg rend="italic">criada de PLEBERIO.</seg></castItem>
-						<castItem xml:id="elic">ELICIA, <seg rend="italic">ramera.</seg></castItem>
-						<castItem xml:id="areu">AREUSA, <seg rend="italic">ramera.</seg></castItem>
-						<castItem xml:id="cent">CENTURIO, <seg rend="italic">rofián.</seg></castItem>
+						<castItem xml:id="cali"><role>CALISTO</role><roleDesc>, <seg rend="italic">mancebo enamorado.</seg></roleDesc></castItem>
+						<castItem xml:id="meli"><role>MELIBEA</role><roleDesc>, <seg rend="italic">hija de PLEBERIO.</seg></roleDesc></castItem>
+						<castItem xml:id="pleb"><role>PLEBERIO</role><roleDesc>, <seg rend="italic">padre de MELIBEA.</seg></roleDesc></castItem>
+						<castItem xml:id="alis"><role>ALISA</role><roleDesc>, <seg rend="italic">madre de MELIBEA.</seg></roleDesc></castItem>
+						<castItem xml:id="cele"><role>CELESTINA</role><roleDesc>, <seg rend="italic">alcahueta.</seg></roleDesc></castItem>
+						<castItem xml:id="parm"><role>PÁRMENO</role><roleDesc>, <seg rend="italic">criado de CALISTO.</seg></roleDesc></castItem>
+						<castItem xml:id="semp"><role>SEMPRONIO</role><roleDesc>, <seg rend="italic">criado de CALISTO.</seg></roleDesc></castItem>
+						<castItem xml:id="tris"><role>TRISTÁN</role><roleDesc>, <seg rend="italic">criado de CALISTO.</seg></roleDesc></castItem>
+						<castItem xml:id="sosi"><role>SOSIA</role><roleDesc>, <seg rend="italic">criado de CALISTO.</seg></roleDesc></castItem>
+						<castItem xml:id="crit"><role>CRITO</role><roleDesc>, <seg rend="italic">putañero.</seg></roleDesc></castItem>
+						<castItem xml:id="lucr"><role>LUCRECIA</role><roleDesc>, <seg rend="italic">criada de PLEBERIO.</seg></roleDesc></castItem>
+						<castItem xml:id="elic"><role>ELICIA</role><roleDesc>, <seg rend="italic">ramera.</seg></roleDesc></castItem>
+						<castItem xml:id="areu"><role>AREUSA</role><roleDesc>, <seg rend="italic">ramera.</seg></roleDesc></castItem>
+						<castItem xml:id="cent"><role>CENTURIO</role><roleDesc>, <seg rend="italic">rofián.</seg></roleDesc></castItem>
 					</castList>
 				</div>
 			</div>
@@ -5090,10 +5093,10 @@
 						<seg rend="italic">e que crié cueruo que me sacasse el ojo</seg><seg rend="italic">? Tú eres público delinquente e mataste a los que son priuados. E pues sabe que menor delito es el priuado que el público, menor su vtilidad, según las leyes de Atenas</seg>
 						<seg rend="italic">disponen. Las quales no son escritas con sangre; antes muestran que es menor yerro no condenar los malhechores, que punir los innocentes. ¡O quan peligroso es seguir justa causa delante injusto juez! Quánto más este excesso de mis criados, que no carescía de culpa. Pues mira, si mal has hecho, que ay sindicado en el cielo y en la tierra: assí que a Dios e al rey serás reo e a mí capital enemigo. ¿Qué peccó el vno por lo que hizo el otro, que por solo ser su compañero los mataste a entrambos? ¿Pero qué digo? ¿Con quién hablo? ¿Estoy en mi seso</seg><seg rend="italic">? ¿Qué es esto, Calisto? ¿Soñauas, duermes o velas? ¿Estás en pie o acostado? Cata que estás en tu cámara. ¿No vees que el offendedor no está presente? ¿Con quién lo has? Torna en ti. Mira que nunca los absentes se hallaron justos. Oye entrambas partes para sentenciar. ¿No vees que por executar la justicia no auía de mirar amistad ni deudo ni criança? ¿No miras que la ley tiene de ser ygual a todos? Mira que Rómulo, el primer cimentador de Roma, mató a su propio hermano, porque la ordenada ley traspassó.</seg> <seg rend="italic">Mira a Torcato</seg>
 						<seg rend="italic">romano, cómo mató a su hijo, porque excedió la tribunicia constitución. Otros muchos hizieron lo mesmo. Considera que, si aquí presente él estouiese, respondería que hazientes e consintientes merecen ygual pena; avnque a entrambos matasse por lo que el vno pecó. E que, si aceleró en su muerte, que era crimen notorio e no eran necessarias muchas prueuas e que fueron tomados en el acto del matar: que ya estaua el vno muerto de la cayda que dio. E también se deue creer que aquella lloradera moça, que Celestina tenía en su casa, le dio rezia priessa con su triste llanto e él, por no hazer bullicio, por no me disfamar, por no esperar a que la gente se leuantasse e oyessen el pregón, del qual gran infamia se me siguía, los mandó justiciar tan de mañana, pues era forçoso el verdugo y bozeador para la execución e su descargo. Lo qual todo, assí como creo es hecho, antes le quedo deudor e obligado para quanto biua, no como a criado de mi padre, pero como a verdadero hermano. E puesto caso que assí no fuesse, puesto caso que no</seg> <seg rend="italic">echasse lo passado a la mejor parte, acuérdate</seg><seg rend="italic">, Calisto, del gran gozo passado. Acuérdate de tu señora e tu bien todo. E pues tu vida no tienes en nada por su seruicio, no has de tener las muertes de otros, pues ningún dolor ygualará con el rescebido plazer.</seg></p>
-				</sp>
 				<p><seg rend="italic">¡O mi señora e mi vida! Que jamás pensé en absencia offenderte. Que paresce que tengo en poca estima la merced, que me has hecho. No quiero pensar en enojo, no quiero tener ya con la tristeza amistad. ¡O bien sin comparación! ¡O insaciable contentamiento! ¿E quándo pidiera yo más a Dios por premio de mis méritos, si algunos son en esta vida, de lo que alcançado tengo? ¿Por qué no estoy contento? Pues no es razón ser ingrato a quien tanto bien me ha dado. ¡Quiérolo conocer, no quiero con enojo perder mi seso, porque perdido no cayga de tan alta possessión! No quiero otra honrra; ni otra gloria, no otras riquezas, no otro padre ni madre, no otros deudos no parientes. De día estaré en mi cámara, de noche en aquel parayso dulce, en aquel alegre vergel, entre aquellas suaues plantas</seg> <seg rend="italic">e fresca verdura. ¡O noche de mi descanso, si fuesses ya tornada! ¡O luziente Febo, date priessa a tu acostumbrado camino! ¡O deleytosas estrellas, apareceos ante de la continua orden! ¡O espacioso relox, avn te vea yo arder en biuo fuego de amor! Que si tú esperasses lo que yo, quando des doze, jamás estarías arrendado a la voluntad del maestro, que te compuso. Pues ¡vosotros, inuernales meses, que agora estays escondidos!: ¡viniessedes con vuestras muy complidas noches a trocarlas por estos prolixos días! Ya me paresce hauer vn año, que no he visto aquel suaue descanso, aquel deleytoso refrigerio de mis trabajos. ¿Pero qué es lo que demando</seg><seg rend="italic">? ¿Qué pido, loco, sin sufrimiento? Lo que jamás fue ni puede ser. No aprenden los cursos naturales a rodearse sin orden, que a todos es vn ygual curso, a todos vn mesmo espacio para muerte y vida, un limitado término a los secretos mouimientos del alto firmamento celestial de los planetas y norte, de los crescimientos e mengua de la menstrua luna. Todo se rige con vn freno ygual, todo se mueue con igual espuela: cielo, tierra, mar, fuego, viento, calor, frío ¿Qué me aprouecha a mí que dé doze</seg> <seg rend="italic">horas el relox de hierro, si no las ha dado el del cielo? Pues, por mucho que madrugue, no amanesce más ayna</seg>.</p>
 				<p><seg rend="italic">Pero tú, dulce ymaginacion, tú que puedes, me acorre. Trae a mi fantasía la presencia angélica de aquella ymagen luziente, buelue a mis oydos el suaue son de sus palabras, aquellos desuíos sin gana, aquel apártate allá, señor, no llegues a mí, aquel no seas descortés, que con sus rubicundos labrios</seg>
 					<seg rend="italic">vía sonar, aquel no quieras mi perdición, que de rato en rato proponía, aquellos amorosos abraços entre palabra e palabra, aquel soltarme e prenderme, aquel huyr e llegarse, aquellos açucarados besos, aquella final salutación con que se me despidió. ¡Con quanta pena salió por su boca! ¡Con quantos desperezos! ¡Con quantas lágrimas, que parescían granos de aljofar, que sin sentir se le cayan de aquellos claros e resplandecientes ojos!</seg></p>
+				</sp>
 				<sp who="#sosi">
 					<speaker>Sosia</speaker>
 					<p><seg rend="italic">Tristán, ¿qué te paresce de Calisto, qué dormir ha hecho? Que son ya las quatro de la tarde e no nos ha llamado ni ha comido</seg>.</p>
