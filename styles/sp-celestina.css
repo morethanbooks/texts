@@ -1,0 +1,60 @@
+@import url("basic-celestina.css");
+TEI::before
+{
+content: "Word2pixels: Who talks? Calisto and servants: blue. Melibea, family and servant: green. Celestina: red. Prostitutes: orange and purple. Crito and Centurio: yellow.";
+font-size: 35rem;
+}
+sp
+{
+	color:white;
+	background-color:gold;
+}
+
+sp[who="#cali"]
+{
+	background-color:navy;
+}
+
+sp[who="#meli"]
+{
+	background-color:darkgreen;
+}
+
+sp[who="#pleb"],sp[who="#alis"]
+{
+	background-color:forestgreen;
+}
+
+sp[who="#cele"]
+{
+	background-color:red;
+}
+
+sp[who="#parm"],sp[who="#semp"]
+{
+	background-color:steelblue;
+}
+
+sp[who="#sosi"],sp[who="#trist"]
+{
+	background-color:lightblue;
+}
+
+sp[who="#crit"],sp[who="#cent"]
+{
+	background-color:yellow;
+}
+
+sp[who="#lucr"]
+{
+	background-color:limegreen;
+}
+
+sp[who="#elic"]
+{
+	background-color:purple;
+}
+sp[who="#areu"]
+{
+	background-color:orange;
+}
